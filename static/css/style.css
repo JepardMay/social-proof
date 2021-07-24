@@ -1,0 +1,49 @@
+/* Start of global styles */
+:root {
+   /* Colors and font sizes go into these variables */
+   --purple-violet: #502050;
+   --cyclamen: #ee68a4;
+   --mountbatten-pink: #937b92;
+   --cultured: #f7f2f7;
+}
+
+html {
+   font-size: 100%;
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Spartan", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+   margin: 0;
+}
+
+.container {
+   margin: 0 auto;
+   max-width: 90rem; /* 1440px */
+   height: 50rem; /* 800px */
+}
+/* End of global styles */
+
+/* Start of main styles */
+/* End of main styles */
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
