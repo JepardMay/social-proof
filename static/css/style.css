@@ -251,8 +251,6 @@ p {
 .attribution {
    font-size: var(--font-sm);
    color: var(--purple-violet);
-   /* text-align: center; */
-   /* set a width */
 }
 
 .attribution .link {
@@ -323,6 +321,12 @@ p {
 
    .card:last-child {
       margin-left: 2.875rem;
+   }
+}
+
+@media (min-width: 1024px) {
+   .attribution {
+      padding: 0.625rem 0;
    }
 }
 
