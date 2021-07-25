@@ -33,9 +33,13 @@ Users should be able to:
 
 Screenshot of the part coded by [AllanKirui](#authors).
 
-![](.static/img/markdown_images/)
+![](./static/img/markdown_images/2.png)
 
 Screenshot of the part coded by [VeronikaPalto](#authors).
+
+![](./static/img/markdown_images/3.png)
+
+Screenshot of the general overview of the page.
 
 ### Links
 
