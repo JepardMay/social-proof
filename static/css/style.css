@@ -95,7 +95,7 @@ p {
 .card {
    display: flex;
    align-items: center;
-   max-width: 410px;
+   max-width: 443.5px;
    padding: 18.5px 0 18.5px 32px;
    background-color: var(--cultured);
    border-radius: 5px;
