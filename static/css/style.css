@@ -253,7 +253,6 @@ p {
 
    .section-1-text {
       max-width: 460px;
-      background-color: orange;
    }
 
    .card:nth-child(2) {
@@ -269,16 +268,12 @@ p {
    .container {
       padding: 79px 24px 0;
    }
-   .reviews__list {
-      background-color: orange;
-   }
 
    .reviews__item {
       flex-grow: 1;
       max-width: 100%;
       width: 100%;
       /* margin-left: 0; */
-      margin-left: 24px;
    }
 
    .reviews__item:nth-child(3n - 1),
@@ -290,7 +285,6 @@ p {
 @media (max-width: 939px) {
    .section-1-text {
       max-width: 380px;
-      background-color: orange;
    }
 
    .section-1-text h1 {
@@ -327,7 +321,6 @@ p {
    }
 
    .section-1-text p {
-      background-color: tomato;
       width: 100%;
       padding: 0 28px;
    }
@@ -387,9 +380,6 @@ p {
    .card-text {
       margin: 12px 0 0 0;
       width: 100%;
-   }
-   .card-text p {
-      background-color: green;
    }
 }
 
