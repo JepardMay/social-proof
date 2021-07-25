@@ -36,9 +36,28 @@ p {
    max-width: 90rem; /* 1440px */
    height: 50rem; /* 800px */
    padding: 7.8125rem 10.25rem 0; /* 125px 164px 0 164px */
-   background-color: tomato;
+   /* background-color: tomato; */
+   position: relative;
 }
 /* End of global styles */
+
+/* Start of background image styles */
+.top-img,
+.bottom-img {
+   position: absolute;
+   z-index: -1;
+}
+
+.top-img {
+   top: 0;
+   left: 0;
+}
+
+.bottom-img {
+   bottom: 0;
+   right: 0;
+}
+/* End of background image styles */
 
 /* Start of section 1 styles */
 .section-1 {
