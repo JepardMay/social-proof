@@ -5,6 +5,10 @@
    --cyclamen: #ee68a4;
    --mountbatten-pink: #937b92;
    --cultured: #f7f2f7;
+
+   --font-xl: 2.875rem; /*font extra large 46px*/
+   --font-nm: 0.9375rem; /*font normal 15px*/
+   --font-sm: 0.8125rem; /*font small 13px*/
 }
 
 html {
@@ -36,7 +40,6 @@ p {
    max-width: 90rem; /* 1440px */
    height: 50rem; /* 800px */
    padding: 7.8125rem 10.25rem 0; /* 125px 164px 0 164px */
-   /* background-color: tomato; */
    position: relative;
 }
 /* End of global styles */
@@ -62,30 +65,30 @@ p {
 /* Start of section 1 styles */
 .section-1 {
    display: flex;
-   margin-bottom: 72px;
+   margin-bottom: 4.5rem;
 }
 
 .section-1-text {
-   max-width: 556px;
+   max-width: 34.75rem;
 }
 
 .section-1-text h1 {
-   font-size: 46px;
+   font-size: var(--font-xl);
    font-weight: 700;
    color: var(--purple-violet);
    /* I set a width to the h1 and paragraph elements to
    get as close to the design as possible*/
    width: 80%;
-   line-height: 48px;
+   line-height: 3rem;
 }
 
 .section-1-text p {
-   font-size: 15px;
+   font-size: var(--font-nm);
    font-weight: 500;
    color: var(--mountbatten-pink);
    width: 88%;
-   line-height: 24px;
-   margin-top: 13px;
+   line-height: 1.5rem;
+   margin-top: 0.8215rem;
 }
 
 .section-1-ratings {
@@ -95,34 +98,34 @@ p {
 .card {
    display: flex;
    align-items: center;
-   max-width: 443.5px;
-   padding: 18.5px 0 18.5px 32px;
+   max-width: 27.71875rem;
+   padding: 1.15625rem 0 1.15625rem 2rem;
    background-color: var(--cultured);
-   border-radius: 5px;
+   border-radius: 0.3125rem;
 }
 
 .card:first-child {
-   margin-top: 15px;
+   margin-top: 0.9365rem;
 }
 
 .card:nth-child(2) {
-   margin-left: 47px;
+   margin-left: 2.9375rem;
 }
 
 .card:last-child {
-   margin-left: 94px;
+   margin-left: 5.875rem;
 }
 
 .card:not(:last-child) {
-   margin-bottom: 15px;
+   margin-bottom: 0.9375rem;
 }
 
 .card-text {
-   margin-left: 32px;
+   margin-left: 2rem;
 }
 
 .card-text p {
-   font-size: 13px;
+   font-size: var(--font-sm);
    font-weight: bold;
    color: var(--purple-violet);
 }
