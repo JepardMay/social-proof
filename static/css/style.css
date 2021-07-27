@@ -153,6 +153,10 @@ p {
 
 /* Start of section 2 styles */
 
+.reviews {
+	width: 100%;
+}
+
 .reviews__list {
 	display: flex;
 	flex-wrap: wrap;
@@ -377,6 +381,7 @@ p {
 	.card {
 		max-width: 100%;
 	}
+
 	.section-1-text h1,
 	.section-1-text p,
 	.card {
@@ -406,6 +411,10 @@ p {
 
 	.reviews__item:nth-child(2n) {
 		transform: translateY(0);
+	}
+
+	.review {
+		padding-bottom: 2rem;
 	}
 
 	.attribution {
