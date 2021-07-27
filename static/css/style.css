@@ -140,6 +140,11 @@ p {
    margin-bottom: 0.9375rem;
 }
 
+.card-stars img {
+   width: 16.554px;
+   height: 15.772px;
+}
+
 .card-stars img:not(:last-child) {
    margin-right: 0.375rem;
 }
@@ -419,21 +424,23 @@ p {
    }
 }
 
-@media (min-width: 550px) {
+@media (min-width: 580px) {
    .hide-for-large {
       display: none;
    }
 }
 
-@media (max-width: 549px) {
-   img.mobile-top-img {
-      width: 100%;
-   }
-
+@media (max-width: 579px) {
    .hide-for-small {
       display: none;
    }
 
+   img.mobile-top-img {
+      width: 100%;
+   }
+}
+
+@media (max-width: 549px) {
    .section-1 {
       margin-bottom: 3rem;
    }
