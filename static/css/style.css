@@ -43,6 +43,7 @@ p {
    /* height: 50rem; 800px */
    padding: 7.8125rem 10.25rem 0; /* 125px 164px 0 164px */
    position: relative;
+   overflow: hidden;
 }
 
 .visually-hidden {
@@ -77,9 +78,17 @@ p {
 
 .bottom-img,
 .mobile-bottom-img {
-   bottom: 0;
    right: 0;
 }
+
+.bottom-img {
+   bottom: -60px;
+}
+
+.mobile-bottom-img {
+   bottom: -130px;
+}
+
 /* End of background image styles */
 
 /* Start of section 1 styles */
