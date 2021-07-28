@@ -49,7 +49,7 @@ Screenshots of the page in tablet view.
 ### Links
 
 -  Solution URL: coming soon
--  Live Site URL: coming soon
+-  Live Site URL: [Netlify](https://practical-tereshkova-8c641d.netlify.app/)
 
 ## Our process
 
