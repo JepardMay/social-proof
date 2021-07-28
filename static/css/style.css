@@ -38,8 +38,11 @@ p {
 }
 
 .container {
+   display: flex;
+   flex-direction: column;
    margin: 0 auto;
    max-width: 90rem; /* 1440px */
+   min-height: 100vh;
    /* height: 50rem; 800px */
    padding: 7.8125rem 10.25rem 0; /* 125px 164px 0 164px */
    position: relative;
@@ -189,6 +192,10 @@ p {
 
 /* Start of section 2 styles */
 
+.reviews {
+   width: 100%;
+}
+
 .reviews__list {
    display: flex;
    flex-wrap: wrap;
@@ -285,6 +292,7 @@ p {
 	(https://freefrontend.com/css-link-styles/)
 */
 .attribution {
+   margin-top: auto;
    font-size: var(--font-sm);
    color: var(--purple-violet);
 }
@@ -453,6 +461,10 @@ p {
 
    .reviews__item:nth-child(2n) {
       transform: translateY(0);
+   }
+
+   .review {
+      padding-bottom: 2rem;
    }
 
    .attribution {
