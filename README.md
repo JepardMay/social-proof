@@ -48,13 +48,10 @@ Screenshots of the page in tablet view.
 
 ### Links
 
--  Solution URL: coming soon
+-  Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA/hub)
 -  Live Site URL: [Netlify](https://practical-tereshkova-8c641d.netlify.app/)
 
 ## Our process
-
-_content here_
-
 ### Built with
 
 -  Semantic HTML5 markup
